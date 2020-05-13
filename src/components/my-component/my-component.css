@@ -1,0 +1,55 @@
+:host {
+  display: block;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+.alert-content {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 40px;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 8px;
+  border-radius: 0.25rem;
+  position: relative;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-alert {
+  margin-right: 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  height: 100%;
+}
+
+.error {
+  background-color: rgba(255, 53, 53, 0.15);
+  color: #992020;
+  border: 1px solid #992020;
+}
+
+.information {
+  background-color: rgba(33, 117, 214, 0.15);
+  color: #2175d6;
+  border: 1px solid #2175d6;
+}
+
+.btn-close{
+  position: absolute;
+  cursor: pointer;
+  right: 15px;
+  opacity: 0.5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
